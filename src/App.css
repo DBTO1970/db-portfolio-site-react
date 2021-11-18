@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-color: rgba( 16, 64, 80,1);
+  width: 100vw;
 }
 
 .App-logo {
@@ -16,8 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgba(  2, 40, 53,1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,3 +46,29 @@
   }
 }
 
+.section {
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 38, 89,106,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(108,147,159,1) }
+.rgba-primary-2 { color: rgba( 69,117,133,1) }
+.rgba-primary-3 { color: rgba( 16, 64, 80,1) }
+.rgba-primary-4 { color: rgba(  2, 40, 53,1) }
+
+.rgba-secondary-1-0 { color: rgba(170,137, 57,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(255,230,170,1) }
+.rgba-secondary-1-2 { color: rgba(212,181,106,1) }
+.rgba-secondary-1-3 { color: rgba(128, 96, 21,1) }
+.rgba-secondary-1-4 { color: rgba( 85, 60,  0,1) }
+
+.rgba-secondary-2-0 { color: rgba(170, 74, 57,1) }	/* Main Secondary color (2) */
+.rgba-secondary-2-1 { color: rgba(255,183,170,1) }
+.rgba-secondary-2-2 { color: rgba(212,123,106,1) }
+.rgba-secondary-2-3 { color: rgba(128, 38, 21,1) }
+.rgba-secondary-2-4 { color: rgba( 85, 13,  0,1) }

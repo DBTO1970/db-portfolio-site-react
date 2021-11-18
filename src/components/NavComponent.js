@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 function Nav() {
 
     return (
-        <div>
+        <div style={{backgroundColor: 'rgba( 16, 64, 80,1)', width: '100vw'}}>
             <h1>Nav</h1>
             {/* <nav 
           style={{
